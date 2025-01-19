@@ -1,0 +1,101 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+}
+
+footer .construction-img {
+    max-width: 150px; /* Adjust size of the image */
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8; /* Make the image slightly transparent */
+}
+
+footer .construction-img:hover {
+    opacity: 1; /* Image becomes fully visible on hover */
+    transform: scale(1.1); /* Add a subtle zoom effect */
+    transition: 0.3s ease-in-out; /* Smooth animation */
+}
